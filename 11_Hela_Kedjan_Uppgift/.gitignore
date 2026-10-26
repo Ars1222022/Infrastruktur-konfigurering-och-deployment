@@ -1,0 +1,8 @@
+*.tfstate
+*.tfstate.*
+.terraform/
+*.retry
+__pycache__/
+*.log
+server.txt
+report.json

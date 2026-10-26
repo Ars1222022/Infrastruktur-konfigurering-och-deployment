@@ -1,0 +1,21 @@
+---
+- name: Konfigurera med Ansible
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Installera Nginx
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+
+    - name: Starta Nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: Kopiera webbsida
+      copy:
+        src: website.html
+        dest: /var/www/html/index.html
