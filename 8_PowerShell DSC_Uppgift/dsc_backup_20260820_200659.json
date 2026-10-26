@@ -1,0 +1,203 @@
+{
+  "CimClass": {
+    "CimSuperClassName": "OMI_BaseResource",
+    "CimSuperClass": {
+      "CimSuperClassName": null,
+      "CimSuperClass": null,
+      "CimClassProperties": "ConfigurationName DependsOn ModuleName ModuleVersion PsDscRunAsCredential ResourceId SourceInfo",
+      "CimClassQualifiers": "Abstract = True ClassVersion = \"1.0.0\" locale = 1033",
+      "CimClassMethods": "",
+      "CimSystemProperties": "Microsoft.Management.Infrastructure.CimSystemProperties"
+    },
+    "CimClassProperties": [
+      "ConfigurationName",
+      "DependsOn",
+      "ModuleName",
+      "ModuleVersion",
+      "PsDscRunAsCredential",
+      "ResourceId",
+      "SourceInfo",
+      "BuiltInAccount",
+      "Credential",
+      "Dependencies",
+      "Description",
+      "DisplayName",
+      "Ensure",
+      "Name",
+      "Path",
+      "StartupType",
+      "State",
+      "Status"
+    ],
+    "CimClassQualifiers": [
+      "ClassVersion = \"1.0.0\"",
+      "FriendlyName = \"Service\""
+    ],
+    "CimClassMethods": [],
+    "CimSystemProperties": {
+      "Namespace": "ROOT/microsoft/windows/DesiredStateConfiguration",
+      "ServerName": "MSI",
+      "ClassName": "MSFT_ServiceResource",
+      "Path": null
+    }
+  },
+  "CimInstanceProperties": [
+    {
+      "Name": "ConfigurationName",
+      "Value": "EnsureService",
+      "CimType": 14,
+      "Flags": "Property, NotModified",
+      "IsValueModified": false
+    },
+    {
+      "Name": "DependsOn",
+      "Value": null,
+      "CimType": 30,
+      "Flags": "Property, NotModified, NullValue",
+      "IsValueModified": false
+    },
+    {
+      "Name": "ModuleName",
+      "Value": "PsDesiredStateConfiguration",
+      "CimType": 14,
+      "Flags": "Property, Required, NotModified",
+      "IsValueModified": false
+    },
+    {
+      "Name": "ModuleVersion",
+      "Value": "1.1",
+      "CimType": 14,
+      "Flags": "Property, Required, NotModified",
+      "IsValueModified": false
+    },
+    {
+      "Name": "PsDscRunAsCredential",
+      "Value": null,
+      "CimType": 16,
+      "Flags": "Property, NotModified, NullValue",
+      "IsValueModified": false
+    },
+    {
+      "Name": "ResourceId",
+      "Value": "[Service]SpoolerService",
+      "CimType": 14,
+      "Flags": "Property, Required, NotModified",
+      "IsValueModified": false
+    },
+    {
+      "Name": "SourceInfo",
+      "Value": null,
+      "CimType": 14,
+      "Flags": "Property, NotModified, NullValue",
+      "IsValueModified": false
+    },
+    {
+      "Name": "BuiltInAccount",
+      "Value": "LocalSystem",
+      "CimType": 14,
+      "Flags": "Property, NotModified",
+      "IsValueModified": false
+    },
+    {
+      "Name": "Credential",
+      "Value": null,
+      "CimType": 16,
+      "Flags": "Property, NotModified, NullValue",
+      "IsValueModified": false
+    },
+    {
+      "Name": "Dependencies",
+      "Value": "RPCSS http",
+      "CimType": 30,
+      "Flags": "Property, NotModified",
+      "IsValueModified": false
+    },
+    {
+      "Name": "Description",
+      "Value": "Эта служба позволяет ставить задания печати в очередь и обеспечивает взаимодействие с принтером. Если ее отключить, вы не сможете выполнять печать и видеть свои принтеры.",
+      "CimType": 14,
+      "Flags": "Property, NotModified",
+      "IsValueModified": false
+    },
+    {
+      "Name": "DisplayName",
+      "Value": "Диспетчер печати",
+      "CimType": 14,
+      "Flags": "Property, NotModified",
+      "IsValueModified": false
+    },
+    {
+      "Name": "Ensure",
+      "Value": null,
+      "CimType": 14,
+      "Flags": "Property, NotModified, NullValue",
+      "IsValueModified": false
+    },
+    {
+      "Name": "Name",
+      "Value": "Spooler",
+      "CimType": 14,
+      "Flags": "Property, Key, NotModified",
+      "IsValueModified": false
+    },
+    {
+      "Name": "Path",
+      "Value": "C:\\WINDOWS\\System32\\spoolsv.exe",
+      "CimType": 14,
+      "Flags": "Property, NotModified",
+      "IsValueModified": false
+    },
+    {
+      "Name": "StartupType",
+      "Value": "Automatic",
+      "CimType": 14,
+      "Flags": "Property, NotModified",
+      "IsValueModified": false
+    },
+    {
+      "Name": "State",
+      "Value": "Running",
+      "CimType": 14,
+      "Flags": "Property, NotModified",
+      "IsValueModified": false
+    },
+    {
+      "Name": "Status",
+      "Value": null,
+      "CimType": 14,
+      "Flags": "Property, ReadOnly, NotModified, NullValue",
+      "IsValueModified": false
+    }
+  ],
+  "CimSystemProperties": {
+    "Namespace": "ROOT/microsoft/windows/DesiredStateConfiguration",
+    "ServerName": "MSI",
+    "ClassName": "MSFT_ServiceResource",
+    "Path": null
+  },
+  "CimClassName": "MSFT_ServiceResource",
+  "PSComputerName": "localhost",
+  "RunspaceId": "e3c113f5-af7f-411a-8fdd-7f4faf20a8b2",
+  "PSShowComputerName": false,
+  "ConfigurationName": "EnsureService",
+  "DependsOn": null,
+  "ModuleName": "PsDesiredStateConfiguration",
+  "ModuleVersion": "1.1",
+  "PsDscRunAsCredential": null,
+  "ResourceId": "[Service]SpoolerService",
+  "SourceInfo": null,
+  "BuiltInAccount": "LocalSystem",
+  "Credential": null,
+  "Dependencies": [
+    "RPCSS",
+    "http"
+  ],
+  "Description": "Эта служба позволяет ставить задания печати в очередь и обеспечивает взаимодействие с принтером. Если ее отключить, вы не сможете выполнять печать и видеть свои принтеры.",
+  "DisplayName": "Диспетчер печати",
+  "Ensure": null,
+  "Name": "Spooler",
+  "Path": "C:\\WINDOWS\\System32\\spoolsv.exe",
+  "StartupType": "Automatic",
+  "State": "Running",
+  "Status": null
+}

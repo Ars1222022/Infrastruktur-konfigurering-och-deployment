@@ -1,0 +1,8 @@
+---
+- name: Min första playbook
+  hosts: localhost
+  tasks:
+    - name: Skapa en fil
+      ansible.builtin.copy:
+        content: "Hej från Ansible!"
+        dest: /tmp/ansible_hello.txt

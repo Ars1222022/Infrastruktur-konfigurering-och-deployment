@@ -1,0 +1,31 @@
+[2026-08-19 10:21:14] [INFO] ========================================
+[2026-08-19 10:21:14] [INFO] Anvandarhanterare script started: 08/19/2026 10:21:14
+[2026-08-19 10:21:14] [INFO] Script location: D:\Nackademin\4_PowerShell_Fortsattning_Uppgift
+[2026-08-19 10:21:14] [INFO] ========================================
+[2026-08-19 10:21:35] [INFO] User 'User1' does not exist – proceeding with creation
+[2026-08-19 10:21:35] [INFO] Attempting to create user: User1
+[2026-08-19 10:21:35] [SUCCESS] User 'User1' created successfully
+[2026-08-19 10:21:35] [WARNING] WARNING: Could not add 'User1' to Users group: Группа Users не найдена.
+[2026-08-19 10:21:42] [INFO] Viewed all local users
+[2026-08-19 10:22:13] [INFO] Found user 'User1' – proceeding with deletion
+[2026-08-19 10:22:19] [SUCCESS] User 'User1' deleted successfully
+[2026-08-19 10:22:26] [INFO] Viewed all local users
+[2026-08-19 10:22:47] [INFO] Script exited by user
+[2026-08-19 10:28:50] [INFO] ========================================
+[2026-08-19 10:28:50] [INFO] Anvandarhanterare script started: 08/19/2026 10:28:50
+[2026-08-19 10:28:50] [INFO] Script location: D:\Nackademin\4_PowerShell_Fortsattning_Uppgift
+[2026-08-19 10:28:50] [INFO] PowerShell version: 7.6.5
+[2026-08-19 10:28:50] [INFO] ========================================
+[2026-08-19 10:28:50] [INFO] Script running with admin rights
+[2026-08-19 10:28:50] [INFO] Module check passed: Microsoft.PowerShell.LocalAccounts
+[2026-08-19 10:31:45] [INFO] User 'User1' does not exist – proceeding with creation
+[2026-08-19 10:31:46] [INFO] Attempting to create user: User1
+[2026-08-19 10:31:46] [SUCCESS] User 'User1' created successfully
+[2026-08-19 10:31:46] [SUCCESS] User 'User1' added to Пользователи group (SID S-1-5-32-545)
+[2026-08-19 10:31:48] [INFO] Viewed all local users (6 users)
+[2026-08-19 10:32:09] [INFO] Found user 'User1' – proceeding with deletion
+[2026-08-19 10:32:11] [SUCCESS] User 'User1' deleted successfully
+[2026-08-19 10:32:15] [INFO] Viewed all local users (5 users)
+[2026-08-19 10:32:50] [INFO] Started background job: UserReport_20260819_103248 (ID: 1)
+[2026-08-19 10:33:10] [INFO] Checked status of background job UserReport_20260819_103248: Completed
+[2026-08-19 10:33:27] [INFO] Script exited by user

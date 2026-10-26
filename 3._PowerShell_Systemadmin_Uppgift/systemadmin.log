@@ -1,0 +1,33 @@
+2026-08-19 09:50:25 - ========================================
+2026-08-19 09:50:25 - SystemAdmin script started: 08/19/2026 09:50:25
+2026-08-19 09:50:25 - Script location: D:\Nackademin\3._PowerShell_Systemadmin_Uppgift
+2026-08-19 09:50:25 - ========================================
+2026-08-19 09:50:51 - Viewed services (first 20)
+2026-08-19 09:51:24 - ERROR: Service 'W3SVC' not found
+2026-08-19 09:51:41 - ERROR: Attempted to stop service without admin rights
+2026-08-19 09:51:48 - Viewed processes (top 20 by CPU)
+2026-08-19 09:52:23 - Started process: explorer
+2026-08-19 09:53:05 - Stopped process: explorer
+2026-08-19 09:53:28 - Script exited by user
+2026-08-19 09:59:27 - ========================================
+2026-08-19 09:59:27 - SystemAdmin script started: 08/19/2026 09:59:27
+2026-08-19 09:59:27 - Script location: D:\Nackademin\3._PowerShell_Systemadmin_Uppgift
+2026-08-19 09:59:27 - ========================================
+2026-08-19 10:00:08 - ========================================
+2026-08-19 10:00:08 - SystemAdmin script started: 08/19/2026 10:00:08
+2026-08-19 10:00:08 - Script location: D:\Nackademin\3._PowerShell_Systemadmin_Uppgift
+2026-08-19 10:00:08 - ========================================
+2026-08-19 10:00:28 - ERROR: Process 'calc' not found
+2026-08-19 10:00:36 - Viewed processes (top 20 by CPU)
+2026-08-19 10:01:27 - ERROR: Service 'sqlservr' not found
+2026-08-19 10:06:55 - ========================================
+2026-08-19 10:06:55 - SystemAdmin script started: 08/19/2026 10:06:55
+2026-08-19 10:06:55 - Script location: D:\Nackademin\3._PowerShell_Systemadmin_Uppgift
+2026-08-19 10:06:55 - ========================================
+2026-08-19 10:07:16 - Viewed services
+2026-08-19 10:07:56 - WARNING: Attempted to start already running service 'Spooler'
+2026-08-19 10:08:10 - Stopped service: Spooler
+2026-08-19 10:08:26 - Viewed processes
+2026-08-19 10:09:15 - Stopped process: explorer
+2026-08-19 10:09:59 - ERROR: Registry path '9' does not exist
+2026-08-19 10:10:08 - Script exited by user

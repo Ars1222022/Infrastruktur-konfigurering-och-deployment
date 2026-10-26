@@ -1,0 +1,72 @@
+2026-08-20 12:56:35 - INFO - ============================================================
+2026-08-20 12:56:35 - INFO - ORCHESTRATOR SCRIPT STARTED
+2026-08-20 12:56:35 - INFO - Script location: d:\Nackademin\5. Python_for_Systemadmin_Uppgift
+2026-08-20 12:56:35 - INFO - ============================================================
+2026-08-20 12:56:35 - INFO - Creating PowerShell script
+2026-08-20 12:56:35 - INFO - PowerShell script created: d:\Nackademin\5. Python_for_Systemadmin_Uppgift\generated_script.ps1
+2026-08-20 12:56:35 - INFO - Running PowerShell script
+2026-08-20 12:56:36 - INFO - PowerShell stdout: [2026-08-20 12:56:35] ========================================
+[2026-08-20 12:56:35] GENERATED SCRIPT STARTED
+[2026-08-20 12:56:35] ========================================
+
+
+    Каталог: D:\Nackademin\5. Python_for_Systemadmin_Uppgift
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                  
+----                 -------------         ------ ----       
+2026-08-20 12:56:36 - INFO - PowerShell script completed successfully
+2026-08-20 12:56:36 - INFO - Parsed JSON result: {'folder_created': True, 'file_created': True, 'file_path': 'TestFolder\\test_file.txt', 'folder_path': 'TestFolder'}
+2026-08-20 12:56:36 - INFO - Verifying results
+2026-08-20 12:56:36 - INFO - Test folder exists: d:\Nackademin\5. Python_for_Systemadmin_Uppgift\TestFolder
+2026-08-20 12:56:36 - INFO - Test file exists: d:\Nackademin\5. Python_for_Systemadmin_Uppgift\TestFolder\test_file.txt
+2026-08-20 12:59:03 - INFO - ============================================================
+2026-08-20 12:59:03 - INFO - ORCHESTRATOR SCRIPT STARTED
+2026-08-20 12:59:03 - INFO - Script location: d:\Nackademin\5_Python_for_Systemadmin_Uppgift
+2026-08-20 12:59:03 - INFO - ============================================================
+2026-08-20 12:59:03 - INFO - Creating PowerShell script
+2026-08-20 12:59:03 - INFO - PowerShell script created: d:\Nackademin\5_Python_for_Systemadmin_Uppgift\generated_script.ps1
+2026-08-20 12:59:03 - INFO - Running PowerShell script
+2026-08-20 12:59:03 - INFO - PowerShell stdout: [2026-08-20 12:59:03] ========================================
+[2026-08-20 12:59:03] GENERATED SCRIPT STARTED
+[2026-08-20 12:59:03] ========================================
+[2026-08-20 12:59:03] Folder already exists: TestFolder
+[2026-08-20 12:59:03] Created file: TestFolder\test_file.txt
+[2026-08-20 12:59:03] Folder contents:
+[2026-08-20 12:59:03]   test_file.txt (106 bytes)
+[2026-08-20 12:59:03] ========================================
+[2026-08-20 12:59:03] GENERATED SCRIPT COMPLETED
+[2026-08-
+2026-08-20 12:59:03 - INFO - PowerShell script completed successfully
+2026-08-20 12:59:03 - INFO - Parsed JSON result: {'folder_created': True, 'file_created': True, 'file_path': 'TestFolder\\test_file.txt', 'folder_path': 'TestFolder'}
+2026-08-20 12:59:03 - INFO - Verifying results
+2026-08-20 12:59:03 - INFO - Test folder exists: d:\Nackademin\5_Python_for_Systemadmin_Uppgift\TestFolder
+2026-08-20 12:59:03 - INFO - Test file exists: d:\Nackademin\5_Python_for_Systemadmin_Uppgift\TestFolder\test_file.txt
+2026-08-20 12:59:03 - INFO - ============================================================
+2026-08-20 12:59:03 - INFO - ORCHESTRATOR SCRIPT COMPLETED
+2026-08-20 12:59:03 - INFO - ============================================================
+2026-08-20 13:06:14 - INFO - ======================================================================
+2026-08-20 13:06:14 - INFO - ORCHESTRATOR SCRIPT STARTED
+2026-08-20 13:06:14 - INFO - Script location: d:\Nackademin\5_Python_for_Systemadmin_Uppgift
+2026-08-20 13:06:14 - INFO - ======================================================================
+2026-08-20 13:06:32 - INFO - Creating PowerShell script
+2026-08-20 13:06:32 - INFO - PowerShell script created: d:\Nackademin\5_Python_for_Systemadmin_Uppgift\generated_script.ps1
+2026-08-20 13:06:53 - INFO - Running PowerShell script
+2026-08-20 13:06:54 - INFO - PowerShell stdout: [2026-08-20 13:06:54] ========================================
+[2026-08-20 13:06:54] GENERATED SCRIPT STARTED
+[2026-08-20 13:06:54] ========================================
+[2026-08-20 13:06:54] Folder already exists: TestFolder
+[2026-08-20 13:06:54] Created file: TestFolder\test_file.txt
+[2026-08-20 13:06:54] Folder contents:
+[2026-08-20 13:06:54]   test_file.txt (106 bytes)
+[2026-08-20 13:06:54] ========================================
+[2026-08-20 13:06:54] GENERATED SCRIPT COMPLETED
+[2026-08-
+2026-08-20 13:06:54 - INFO - PowerShell script completed successfully
+2026-08-20 13:06:54 - INFO - Parsed JSON result: {'folder_created': True, 'file_created': True, 'file_path': 'TestFolder\\test_file.txt', 'folder_path': 'TestFolder'}
+2026-08-20 13:07:07 - INFO - Verifying results
+2026-08-20 13:07:07 - INFO - Test folder exists: d:\Nackademin\5_Python_for_Systemadmin_Uppgift\TestFolder
+2026-08-20 13:07:07 - INFO - Test file exists: d:\Nackademin\5_Python_for_Systemadmin_Uppgift\TestFolder\test_file.txt
+2026-08-20 13:07:16 - INFO - ======================================================================
+2026-08-20 13:07:16 - INFO - ORCHESTRATOR SCRIPT COMPLETED
+2026-08-20 13:07:16 - INFO - ======================================================================
